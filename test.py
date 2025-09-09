@@ -1,12 +1,13 @@
 import turtle
 from turtle import *
 t = Turtle()
-def equal(x):
+def square(x):
     t.forward(x)
-    t.left(21)
+    t.left(90)
     t.forward(x)
-    t.right(99)
-    t.forward(x) 
-    t.right(67)
-    t.left(41)
-equal(222)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+square(200)
